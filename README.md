@@ -14,6 +14,17 @@ nvm install 20
 nvm list
 nvm use 20.18.0
 ```
+# 直接安装
+```angular2html
+npm install
+```
+# 运行
+```angular2html
+npm run dev
+```
+# 其他
+在学习过程中的一些安装，直接拉取该仓库使用`npm install`之后不需要再安装
+
 安装插件
 ```angular2html
 npm create vite@last my-vue-app -- -- template vue
@@ -24,12 +35,4 @@ npm install pinia
 npm install axios
 npm install mockjs
 npm install echarts
-```
-直接安装
-```angular2html
-npm install
-```
-运行
-```angular2html
-npm run dev
 ```
